@@ -1,4 +1,14 @@
-// Method overloading
-// in Java and C++, the constructor is a factor to force overloading of method names
-// Overloading is essential to allow the same method name to be used with different arguments types
-// Overloading is a must for constructors, and it is a general convenience and can be used with any methods
+package java_initialization_cleanup;
+
+class default_constructor{
+	default_constructor(){
+		System.out.println("this is a default constructor");
+	}
+}
+public class exe_default_constructor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new default_constructor();
+	}
+}
