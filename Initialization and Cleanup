@@ -4,11 +4,16 @@ class default_constructor{
 	default_constructor(){
 		System.out.println("this is a default constructor");
 	}
+	default_constructor(String s0){
+		System.out.println("this is a overloading, and "+s0);
+	}
 }
 public class exe_default_constructor {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		new default_constructor();
+		new default_constructor("I love Java!");
 	}
+
 }
